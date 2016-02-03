@@ -5,8 +5,6 @@ An example of the tutorial AngularJs todo app created with typescript compiled a
 ![Example todo angular2 app](http://www.garethweaver.com/github/todo.jpg "Example todo angular2 app")
 
 ```
-npm install webpack -g
-npm install typescript -g
 npm install
 npm start
 ```

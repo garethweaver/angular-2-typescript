@@ -1,0 +1,4 @@
+<h1>Angular 2.0 Todo</h1>
+<todo-form (newTask)="addTask($event)"></todo-form>
+<todo-list [todos]="todos"></todo-list>
+<footer>{{remaining}} of {{todos.length}} remaining</footer>

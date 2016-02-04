@@ -7,4 +7,5 @@ An example of the tutorial AngularJs todo app created with typescript compiled a
 ```
 npm install
 npm start
+http://localhost:8080/
 ```

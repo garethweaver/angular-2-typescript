@@ -1,6 +1,3 @@
-var webpack = require('webpack');
-var path = require('path');
-
 module.exports = {
   entry: {
     "app": "./app/main.ts"
@@ -14,8 +11,11 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts-loader' },
-    ],
-    noParse: [ path.join(__dirname, 'node_modules', 'bundles') ]
+      {
+        test: /\.ts$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: 'ts-loader'
+      },
+    ]
   }
 };
